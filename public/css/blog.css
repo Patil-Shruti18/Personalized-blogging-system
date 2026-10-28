@@ -1,0 +1,124 @@
+.blog,
+.article {
+    position: relative;
+    height: fit-content;
+    padding-bottom: 0;
+}
+
+.article,
+.title {
+    min-height: auto;
+    height: fit-content;
+    padding: 0 10px;
+    white-space: normal;
+}
+
+.published {
+    margin: 20px 0 60px;
+    padding: 0 10px;
+    text-transform: capitalize;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.published span {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.article * {
+    margin: 30px 0;
+    color: #2d2d2d;
+}
+
+.article p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.article h1,
+.article h2,
+.article h3 {
+    font-weight: bold;
+    margin: 20px 0 10px;
+    color: #1b1b1b;
+}
+
+.article h1 {
+    font-size: 28px;
+}
+
+.article h2 {
+    font-size: 24px;
+}
+
+.article h3 {
+    font-size: 20px;
+}
+
+.article-image {
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 30px auto;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sub-heading {
+    padding: 0 5vw;
+    color: #2d2d2d;
+    font-weight: 500;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.blog-actions {
+    display: flex;
+    gap: 15px;
+    padding: 0 10px;
+    margin: 20px 0 40px;
+}
+
+.blog-actions .btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog-actions .btn.dark {
+    background: #1b1b1b;
+    color: #fff;
+}
+
+.blog-actions .btn.grey {
+    background: #ccc;
+    color: #000;
+}
+
+.blog-actions .btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+.edit-btn {
+    background: #007bff;
+    color: #fff;
+}
+
+.edit-btn:hover {
+    background: #0056b3;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}
